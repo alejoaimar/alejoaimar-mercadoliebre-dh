@@ -18,11 +18,13 @@ rel="stylesheet" />
     <header>
       <section class="header-top">
         <h1>
-          <img
-            src="/images/logo-mercado-liebre.svg"
-            alt="Mercado Liebre"
-            class="logo"
-          />
+          <a href="/">
+            <img
+              src="/images/logo-mercado-liebre.svg"
+              alt="Mercado Liebre"
+              class="logo"
+            />
+          </a>
         </h1>
         <form id="search-bar">
           <input type="search" placeholder="Buscar productos, marcas y mas" />
@@ -43,10 +45,10 @@ rel="stylesheet" />
         </ul>
         <ul id="login-bar">
           <li>
-            <a href="">Creá tu cuenta <i class="fas fa-id-card"></i></a>
+            <a href="/register">Creá tu cuenta <i class="fas fa-id-card"></i></a>
           </li>
           <li>
-            <a href="">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
           </li>
           <li>
             <a href="">Mis Compras <i class="fas fa-shopping-basket"></i></a>
@@ -58,17 +60,17 @@ rel="stylesheet" />
       </div>
       <img src="/images/img-home-banner.jpg" alt="" />
     </header>
-    <main class="login">
-        <form action="/register" method="POST">
+    <main style="width: 90%; margin: 0 auto">
+        <form action="/login" method="POST"  class="login">
       <div>
-          <label for="name"></label>
+          <label class="hidden" for="name">Nombre de usuario:</label>
           <input class="input-box"  type="text" name="fullname" id="fullname" placeholder="Nombre y apellido">
       </div>
       <div>
-        <label for="password" ></label>
+        <label class="hidden" for="password" >Ingresar contraseña:</label>
         <input class="input-box" type="password" name="password" id="password" placeholder="Ingresar contraseña">
       </div>
-      <button class="enviar"type="submit"><a href="/">Enviar</a></button>
+      <button class="enviar"type="submit">Enviar</button>
       </form>
     </main>
     <footer>
