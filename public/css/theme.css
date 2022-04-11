@@ -1,0 +1,53 @@
+:root {
+  --amarillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --gris-oscuro: #666;
+  --gris-claro: #ebebeb;
+  --verde: #39b54a;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: var(--gris-claro);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+.descuento {
+  font-size: 16px;
+}
+
+.descripciones {
+  font-size: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
